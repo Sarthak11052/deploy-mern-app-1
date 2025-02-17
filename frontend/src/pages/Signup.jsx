@@ -23,7 +23,7 @@ function Signup() {
             return handleError('name,email and password are required');
         }
         try {
-            const url= "http://localhost:8080/auth/signup";
+            const url= "https://deploy-mern-app-1-cw70ad4wn-sarthaks-projects-85cd2d00.vercel.app/auth/signup";
             const response= await fetch(url,{
                 method: 'POST',
                 headers: {
