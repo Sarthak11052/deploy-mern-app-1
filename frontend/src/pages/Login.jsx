@@ -22,7 +22,7 @@ function Login() {
             return handleError('email and password are required');
         }
         try {
-            const url= "http://localhost:8080/auth/login";
+            const url= "https://deploy-mern-app-1-cw70ad4wn-sarthaks-projects-85cd2d00.vercel.app/auth/login";
             const response= await fetch(url,{
                 method: 'POST',
                 headers: {
