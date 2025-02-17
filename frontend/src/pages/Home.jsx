@@ -22,7 +22,7 @@ function Home() {
     }
     const fetchProducts=async()=>{
         try {
-            const url="http://localhost:8080/products"
+            const url="https://deploy-mern-app-1-cw70ad4wn-sarthaks-projects-85cd2d00.vercel.app/products"
             const headers={
                 headers:{
                     'authorization':localStorage.getItem('token')
